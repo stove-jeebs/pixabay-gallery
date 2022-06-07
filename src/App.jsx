@@ -31,8 +31,8 @@ export default function Content() {
       {isLoading ? (
         <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
       ) : (
-        <div className="container mx-auto my-8">
-          <div className="grid grid-cols-3 gap-5">
+        <div className="container mx-auto my-8 flex justify-evenly">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {images.map((image) => (
               <Card key={image.id} image={image} />
             ))}
