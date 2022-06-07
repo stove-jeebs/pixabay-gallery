@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pixabay-gallery/static/css/main.a5347259.css",
+    "main.js": "/pixabay-gallery/static/js/main.094c00dd.js",
+    "index.html": "/pixabay-gallery/index.html",
+    "main.a5347259.css.map": "/pixabay-gallery/static/css/main.a5347259.css.map",
+    "main.094c00dd.js.map": "/pixabay-gallery/static/js/main.094c00dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5347259.css",
+    "static/js/main.094c00dd.js"
+  ]
+}
