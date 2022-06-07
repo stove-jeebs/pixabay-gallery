@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 
-export default function Search() {
+export default function Search({ searchText }) {
   const [text, setText] = useState("");
+
+  function onSubmit(event) {
+    event.preventDefault();
+    searchText(text);
+  }
 
   return (
     <div className="max-w-sm rounded overflow-hidden my-10 mx-auto">
-      <form className="w-full max-w-sm">
+      <form onSubmit={onSubmit} className="w-full max-w-sm">
         <div className="flex items-center border-b border-b-2 border-teal-500 py-2">
           <input
             onChange={(event) => setText(event.target.value)}
